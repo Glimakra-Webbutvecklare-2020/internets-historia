@@ -1,5 +1,5 @@
 # Internets historia
-En samlingssida för små artiklar kring internets historia
+En samlingssida för små artiklar kring internets historia.
 
 ## Format
 För att skriva en artikel här krävs det att:
@@ -12,4 +12,4 @@ För att skriva en artikel här krävs det att:
 - Vad händer egentligen under IT-bubblan?
 - Bredbandets historia
 - Musens skapare
-- Världens första internet virus.
+- Världens första internet virus
