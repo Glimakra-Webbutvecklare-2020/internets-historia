@@ -7,6 +7,7 @@ För att skriva en artikel här krävs det att:
 - Innehåller en passade title-tag, h1-tag för rubriker, p-tag för paragrafer samt en img-tag för bild
 - Att dokumentet är kopplat till index.html med en a tag
 - Längst ner i dokumentet ska författaren vara nerskriven
+- Se `articles/exempel.html` för att se format exempel
   
 ## Exempel på artiklar
 - Vad händer egentligen under IT-bubblan?
