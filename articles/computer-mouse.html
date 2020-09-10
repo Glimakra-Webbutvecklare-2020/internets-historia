@@ -4,47 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datormusen</title>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        main {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .container {
+            padding: 1em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1em;
+        }
+
+        header, footer {
+            text-align: center;
+        }
+
+        figure {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+        }
+
+        .container section {
+            border: 10px solid #333;
+            background: #333;
+
+        }
+
+        p {
+            padding: 1em;
+            margin: 0;
+            color: #fff;
+        }
+
+        h3 {
+            padding: 1em 1em 0 1em;
+            margin: 0;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <center>
         <main>
             <header>
                 <h1>Datormusen</h1>
+                <hr>
             </header>
-            <section>
+            <div class="container">
+                <section>
     
-                <figure>
-                    <img src="../assets/computer_mouse/pic_1.jpg" alt="En gammal datormus" width="200" height="200">
-                </figure>
-    
-    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam ab aliquam nobis animi iure ex
-                    nemo illum necessitatibus at, eaque deleniti autem officiis aperiam velit labore alias accusamus
-                    consequatur rem ullam a provident quis molestias. Ipsa deserunt illo nemo beatae. Neque laudantium
-                    reiciendis nesciunt, a dolorum sit autem excepturi nulla cupiditate doloremque quibusdam quisquam illum,
-                    reprehenderit nemo magni perferendis velit ducimus numquam veniam facilis dolore accusantium quis fugit
-                    et. Odio eum sit ab non est accusamus cumque quisquam aliquid quis. Doloribus neque deserunt corporis
-                    harum culpa nobis totam, tenetur aperiam eligendi error delectus explicabo. Distinctio unde error at ex
-                    hic commodi maxime tenetur temporibus fugit suscipit, ipsam itaque officiis eligendi dicta laudantium
-                    sint! Reiciendis, earum ad. Tenetur veritatis fuga odio sapiente voluptatum id, quisquam magnam
-                    eligendi, quam nobis neque et nihil. Non architecto, cupiditate corrupti vero assumenda quas debitis.
-                    <mark>Uppfanns år 1968.</mark>
-                    fuga odio recusandae temporibus! Sapiente optio perspiciatis deserunt corrupti! Architecto rem debitis
-                    molestiae aliquid suscipit nemo reprehenderit impedit veniam a quasi itaque animi, tenetur odit esse
-                    doloribus saepe quia repellat consequatur! Velit nobis, perspiciatis, ipsum est neque aut dignissimos
-                    placeat nam vitae odio vel, corporis eaque sapiente dolorum iusto repellat nisi eum fugiat? At quaerat
-                    reiciendis debitis odio, doloremque reprehenderit eligendi ut consequatur aperiam nemo vero quisquam
-                    laboriosam harum! Quia aspernatur, fuga quibusdam assumenda in eligendi illum atque veniam tempore
-                    repudiandae molestias nulla numquam aliquid dolorum dolores ipsa, non iste similique eos deserunt
-                    recusandae unde. Laudantium numquam repellat explicabo sit commodi quia quaerat, ratione assumenda illum
-                    velit, ea tempora minima!</p>
-    
-            </section>
-    
-    
-            <section>
-                <figure>
-                    <img src="../assets/computer_mouse/pic_2.jpg" alt="En bild på datormöss" width="700" height="200">
+                    <figure>
+                        <img src="../assets/computer_mouse/pic_1.jpg" alt="En gammal datormus" width="200" height="200">
+                    </figure>
+        
+                    <h3>Den första datormusen</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam ab aliquam nobis animi iure ex
+                        nemo illum necessitatibus at, eaque deleniti autem officiis aperiam velit labore alias accusamus
+                        consequatur rem ullam a provident quis molestias. Ipsa deserunt illo nemo beatae. Neque laudantium
+                        reiciendis nesciunt, a dolorum sit autem excepturi nulla cupiditate doloremque quibusdam quisquam illum,
+                        reprehenderit nemo magni perferendis velit ducimus numquam veniam facilis dolore accusantium quis fugit
+                        et. Odio eum sit ab non est accusamus cumque quisquam aliquid quis. Doloribus neque deserunt corporis
+                        harum culpa nobis totam, tenetur aperiam eligendi error delectus explicabo. Distinctio unde error at ex
+                        hic commodi maxime tenetur temporibus fugit suscipit, ipsam itaque officiis eligendi dicta laudantium
+                        sint! Reiciendis, earum ad. Tenetur veritatis fuga odio sapiente voluptatum id, quisquam magnam
+                        eligendi, quam nobis neque et nihil. Non architecto, cupiditate corrupti vero assumenda quas debitis.
+                        <mark>Uppfanns år 1968.</mark>
+                        fuga odio recusandae temporibus! Sapiente optio perspiciatis deserunt corrupti! Architecto rem debitis
+                        molestiae aliquid suscipit nemo reprehenderit impedit veniam a quasi itaque animi, tenetur odit esse
+                        doloribus saepe quia repellat consequatur! Velit nobis, perspiciatis, ipsum est neque aut dignissimos
+                        placeat nam vitae odio vel, corporis eaque sapiente dolorum iusto repellat nisi eum fugiat? At quaerat
+                        reiciendis debitis odio, doloremque reprehenderit eligendi ut consequatur aperiam nemo vero quisquam
+                        laboriosam harum! Quia aspernatur, fuga quibusdam assumenda in eligendi illum atque veniam tempore
+                        repudiandae molestias nulla numquam aliquid dolorum dolores ipsa, non iste similique eos deserunt
+                        recusandae unde. Laudantium numquam repellat explicabo sit commodi quia quaerat, ratione assumenda illum
+                        velit, ea tempora minima!</p>
+        
+                </section>
+        
+        
+                <section>
+                    <figure>
+                        <img src="../assets/computer_mouse/pic_2.jpg" alt="En bild på datormöss" width="700" height="200">
+                    </figure>
+                    <h3>Datormusen på 2000-talet</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore quod iusto in possimus
                         mollitia, rerum molestias ea aperiam provident, natus sapiente doloremque accusantium animi beatae
                         sint commodi inventore quam! Asperiores molestias ducimus in veritatis sed fugiat omnis labore.
@@ -52,13 +107,14 @@
                         repellendus! Facilis, ab voluptatem exercitationem alias error quidem nostrum dolores molestias
                         culpa officia deleniti aspernatur nulla fugit laborum! Eos tempora libero id perspiciatis cumque
                         inventore magnam.</p>
-                </figure>
-            </section>
-    
-    
-            <section>
-                <figure>
-                    <img src="../assets/computer_mouse/pic_3.jpg" alt="En modern spelmus" width="200" height="200">
+                </section>
+        
+        
+                <section>
+                    <figure>
+                        <img src="../assets/computer_mouse/pic_3.jpg" alt="En modern spelmus" width="200" height="200">
+                    </figure>
+                    <h3>En modern datormus</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio dolor molestiae quasi natus
                         repellendus fugit blanditiis, temporibus fugiat sed eligendi debitis, quis impedit nobis voluptatem
                         necessitatibus assumenda! Accusamus, est magnam nobis consectetur voluptas laudantium nam quibusdam
@@ -68,15 +124,15 @@
                         Soluta dolores voluptas laudantium, blanditiis similique ducimus. Facere est molestias amet libero
                         eum suscipit numquam eaque aliquid. Aut commodi distinctio quas deserunt impedit eius beatae
                         repellendus eos vero, libero, sequi iusto illum molestiae. Amet nesciunt hic fugit tempore.</p>
-                </figure>
-            </section>
+                </section>
+            </div>
     
             
             <footer>
                 <a href="/">Tillbaka till förstasidan</a><br><br>
                 <small>Skriven av Isak Granqvist - September 2020</small>
-            </footer>
+            </footer><br>
         </main>
-    </center>
+
 </body>
 </html>
